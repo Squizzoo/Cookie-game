@@ -3,6 +3,6 @@ $(document).ready(function(){
 
     $("#img").on("click", function(){
         cookies++;
-        $("#scoreCount").html(cookies);
+        $("#scoreCount").html(cookies+ " Cookies");
     });
 });
