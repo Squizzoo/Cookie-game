@@ -1,6 +1,8 @@
 <?php
 include 'php/functions/linkCss.php';
+include 'php/functions/linkScript.php';
 
+$script = bootstrapScr('js/*');
 $css = bootstrap('css');
  ?>
 <!DOCTYPE html>
@@ -37,8 +39,7 @@ $css = bootstrap('css');
 
 		</div>
 	</div>
-
-    <script src='js/jquery/jquery-3.2.0.min.js'></script>
-    <script src='js/functions/cookieHandler.js'></script>
+	<script type="text/javascript" src="js/jquery/jquery-3.2.0.min.js"></script>
+    <?php echo $script; ?>
 </body>
 </html>
