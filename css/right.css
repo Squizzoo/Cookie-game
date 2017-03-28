@@ -1,0 +1,29 @@
+#right {
+	background: #3498db;
+	float: left;
+	position: relative;
+	width: 30%;
+	height: 20vh;
+}
+
+#wrapperBtn {
+	width: 100%;
+	height: 50px;
+}
+
+#right button {
+	border: 0;
+	height: 40px;
+	width: 70px;
+	float: left;
+	margin: 10px;
+	font-family: 'Droid Serif', serif;
+	background-color: #ecf0f1;
+	transition: 0.5s ease all;
+	cursor: pointer;
+}
+
+#right button:hover {
+	background-color: #34495e;
+	color: #ecf0f1;
+}
