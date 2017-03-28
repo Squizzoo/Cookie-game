@@ -1,6 +1,9 @@
 <?php
+include 'php/conn.php';
 include 'php/functions/linkCss.php';
 include 'php/functions/linkScript.php';
+
+$conn = new db('cookie_game', 'root', '');
 
 $script = bootstrapScr('js/*');
 $css = bootstrap('css');
@@ -36,7 +39,7 @@ $css = bootstrap('css');
             </div>
 		</div>
 		<div id="content">
-
+        
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery/jquery-3.2.0.min.js"></script>
